@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "linebreak-style": 0,
+    "no-underscore-dangle": 0,
+    "import/prefer-default-export": 0,
+    "max-len": "warn",
+    "no-await-in-loop": 0,
+    "import/no-named-as-default": 0,
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "arrow-parens": ["error", "as-needed"]
+  },
+  "plugins": ["jest"]
+}

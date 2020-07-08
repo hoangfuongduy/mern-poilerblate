@@ -1,0 +1,1 @@
+{ "*.js": ["Npm run lint:fix ", "git add"] }
